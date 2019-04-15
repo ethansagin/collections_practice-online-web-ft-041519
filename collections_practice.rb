@@ -36,6 +36,6 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  new_arr = arr.each {|str| str if str.start_with?("a")}
+  new_arr = arr.each {|str| str if str.start_with?("a") == true}
   new_arr
 end
