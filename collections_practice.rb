@@ -45,4 +45,6 @@ def sum_array(arr)
   arr.inject{|sum, x| sum + x}
 end
 
-def 
+def add_s(arr)
+  arr.collect {|word| word + "s" unless word[1]}
+end
