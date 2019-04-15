@@ -45,4 +45,5 @@ def sum_array(arr)
   sum = 0
   arr.each {|x| sum += x}
   sum
+  arr.inject{|sum, x| sum + x}
 end
