@@ -46,11 +46,7 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.collect {|word|
-    if word == arr[1]
-      word
-    else
-      word + "s"
-    end
+  arr.each_with_index.collect {|word, index|
+    index == 1 ? word: word + "s"
   }
 end
