@@ -23,4 +23,5 @@ def swap_elements(arr)
     end
     i += 1
   end
+  new_arr
 end
