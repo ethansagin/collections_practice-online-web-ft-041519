@@ -46,5 +46,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.collect {|word| word + "s" unless word[1]}
+  arr.collect {|word| word + "s"}
 end
