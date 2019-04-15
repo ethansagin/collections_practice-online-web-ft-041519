@@ -11,5 +11,16 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)
-  (arr[1])[2]
+  new_arr = []
+  i = 0
+  while i < arr.length
+    if i == 1
+      new_arr << arr[i+1]
+    elsif i == 2
+      new_arr << arr[i-1]
+    else
+      new_arr << arr[i]
+    end
+    i += 1
+  end
 end
