@@ -40,3 +40,5 @@ def find_a(arr)
   arr.each {|str| new_arr << str if str.start_with?("a")}
   new_arr
 end
+
+def 
