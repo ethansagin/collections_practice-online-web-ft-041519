@@ -11,19 +11,8 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)
-  new_arr = []
-  i = 0
-  while i < arr.length
-    if i == 1
-      new_arr << arr[i+1]
-    elsif i == 2
-      new_arr << arr[i-1]
-    else
-      new_arr << arr[i]
-    end
-    i += 1
-  end
-  new_arr
+  arr[1], arr[2] = arr[2], arr[1]
+  arr
 end
 
 def reverse_array(arr)
